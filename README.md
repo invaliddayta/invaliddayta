@@ -1,6 +1,6 @@
 ### hi, i'm paul
 
-embedded linux and edge ai engineer in linz, austria. secure, reproducible, fast, and boring in production
+embedded linux and edge ai engineer in vienna, austria. secure, reproducible, fast, and boring in production
 
 - cto at [STØK](https://thestokclub.com) (company in formation): real-time stocksport scoring from cameras on a jetson running nixos. that code is closed source
 - before that at agilox: moved a fleet of 3,000+ autonomous robots to measured boot, full disk encryption and secure boot, plus the tpm provisioning and ota updates behind it
@@ -16,4 +16,4 @@ embedded linux and edge ai engineer in linz, austria. secure, reproducible, fast
 
 ### work with me
 
-open to freelance projects in embedded linux, device security and edge ai. [linkedin](https://www.linkedin.com/in/paul-mairhofer/) or paul@protom.eu
+open to freelance projects in embedded linux, device security and edge ai. on-site in vienna or linz, or remote. [linkedin](https://www.linkedin.com/in/paul-mairhofer/) or paul@protom.eu
