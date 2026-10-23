@@ -1,24 +1,26 @@
 ### hi, i'm paul
 
-embedded linux and edge ai engineer in vienna, austria. secure, reproducible, fast, and boring in production
+aspiring cyborg, trying to fix the limited bandwidth of humans
 
-- cto at [STØK](https://thestokclub.com) (company in formation): real-time stocksport scoring from cameras on a jetson running nixos. that code is closed source
-- before that at agilox: moved a fleet of 3,000+ autonomous robots to measured boot, full disk encryption and secure boot, plus the tpm provisioning and ota updates behind it
+cto, linux and edge ai engineer. i like building robots
+
+- [STØK](https://thestokclub.com): stocksport is still scored with a tape measure. in 2026. we do it with four cameras and a jetson running nixos instead. that code is closed, sorry
+- before that at agilox i moved 3,000+ autonomous robots onto measured boot, full disk encryption and secure boot, plus the tpm provisioning and ota updates behind it
 - bsc in ai at jku linz, now doing the msc there
 
-### what's here
+### things i made behave
 
-- [llama.cpp-opt](https://github.com/invaliddayta/llama.cpp-opt): llama.cpp fork with my own cuda kernels. a 27b model on one rtx 3090 verifies 8 tokens per step in 33 ms instead of 54, and the kernel changes are bit-exact
-- [llm-opt](https://github.com/invaliddayta/llm-opt): the benchmarks and notes behind it
-- [s90c-tools](https://github.com/invaliddayta/s90c-tools): root, screenshots and app cleanup for my samsung s90c tv. tested on one tizen 7 build
-- [nixos-orangepi-zero2w](https://github.com/invaliddayta/nixos-orangepi-zero2w) and [nixos-rockpi-s](https://github.com/invaliddayta/nixos-rockpi-s): nixos on tiny arm boards. one nix build, bootable sd card
-- [agent-perch](https://github.com/invaliddayta/agent-perch): a small browser terminal for coding agents, on top of tmux
+- [llama.cpp-opt](https://github.com/invaliddayta/llama.cpp-opt): not everyone has a datacenter. i have one rtx 3090 hanging off a usb4 cable. my cuda kernels take a 27b model's verify step from 54 ms to 33. if the output hashes don't match, it doesn't ship
+- [llm-opt](https://github.com/invaliddayta/llm-opt): the receipts. benchmarks, profiles and everything that didn't work
+- [s90c-tools](https://github.com/invaliddayta/s90c-tools): my samsung tv kept nagging me with update popups and apps i never asked for. so i rooted it
+- [nixos-orangepi-zero2w](https://github.com/invaliddayta/nixos-orangepi-zero2w) and [nixos-rockpi-s](https://github.com/invaliddayta/nixos-rockpi-s): i keep putting nixos on tiny arm boards and nobody can stop me
+- [agent-perch](https://github.com/invaliddayta/agent-perch): a small browser terminal for my coding agents, on top of tmux. so i can check on them from my phone
 
-### upstream
+### fixed upstream
 
-- llama.cpp: fixed a shared-memory race in the cuda flash attention kernel ([#30573](https://github.com/ggml-org/llama.cpp/pull/30573))
-- omarchy-mlx: fast quantized matmul for 4-bit group 32 and 8-bit models on apple silicon linux ([#179](https://github.com/joshuaswarren/omarchy-mlx/pull/179))
+- llama.cpp: a shared-memory race in the cuda flash attention kernel. 2.2 million racecheck hazards down to zero ([#30573](https://github.com/ggml-org/llama.cpp/pull/30573))
+- omarchy-mlx: 4-bit group 32 and 8-bit models were stuck on a slow fallback kernel. on my macbook air running linux a 7b model now reads prompts ~8x faster ([#179](https://github.com/joshuaswarren/omarchy-mlx/pull/179))
 
 ### work with me
 
-open to freelance projects in embedded linux, device security and edge ai. on-site in vienna or linz, or remote. [linkedin](https://www.linkedin.com/in/paul-mairhofer/) or paul@protom.eu
+freelance embedded linux, device security and edge ai. vienna, linz or remote. [linkedin](https://www.linkedin.com/in/paul-mairhofer/) or paul@protom.eu
