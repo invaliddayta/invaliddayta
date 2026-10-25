@@ -12,7 +12,7 @@ cto, linux and edge ai engineer. i like building robots
 
 - [llama.cpp-opt](https://github.com/invaliddayta/llama.cpp-opt): not everyone has a datacenter. i have one rtx 3090 hanging off a usb4 cable. my cuda kernels take a 27b model's verify step from 54 ms to 33. if the output hashes don't match, it doesn't ship
 - [llm-opt](https://github.com/invaliddayta/llm-opt): the receipts. benchmarks, profiles and everything that didn't work
-- [s90c-tools](https://github.com/invaliddayta/s90c-tools): my samsung tv kept nagging me with update popups and apps i never asked for. so i rooted it
+- [samsung-tv-tools](https://github.com/invaliddayta/samsung-tv-tools): my samsung tv kept nagging me with update popups and apps i never asked for. so i rooted it
 - [nixos-orangepi-zero2w](https://github.com/invaliddayta/nixos-orangepi-zero2w) and [nixos-rockpi-s](https://github.com/invaliddayta/nixos-rockpi-s): i keep putting nixos on tiny arm boards and nobody can stop me
 - [agent-perch](https://github.com/invaliddayta/agent-perch): a small browser terminal for my coding agents, on top of tmux. so i can check on them from my phone
 
