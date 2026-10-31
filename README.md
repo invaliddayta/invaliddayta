@@ -5,7 +5,7 @@ aspiring cyborg, trying to fix the limited bandwidth of humans
 cto, linux and edge ai engineer. i like building robots
 
 - [STØK](https://thestokclub.com): stocksport is still scored with a tape measure. in 2026. we do it with four cameras and a jetson running nixos instead. that code is closed, sorry
-- before that at agilox i prepared the environment for moving 3,000+ autonomous robots onto measured boot, full disk encryption and secure boot, plus the tpm provisioning and ota updates behind it
+- before that at agilox i prepared the environment for moving the robot fleet onto measured boot, full disk encryption and secure boot, plus the tpm provisioning and ota updates behind it
 - bsc in ai at jku linz, now doing the msc there
 
 ### things i made behave
